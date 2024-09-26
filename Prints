@@ -1,0 +1,24 @@
+package newpackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// This is a comment
+		/* This is a 
+		 * multi line
+		 * comment
+		 */
+		
+		System.out.println("Hello World");
+		System.out.print("How are you ?\n");
+
+		System.out.println("I'm good\n");
+		System.out.println("Thank you");
+		
+		System.out.println("\tI love pizza\n");
+		System.out.println("\"Thats great\"");
+		System.out.print("\\Yes, it is!");
+		System.out.println();
+	}
+
+}
