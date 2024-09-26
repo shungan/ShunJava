@@ -39,6 +39,18 @@ public class Variables {
 	    
 	    String var1 = "Hello";
 	    System.out.println("Say "+var1);
+
+	    // Swap variables
+	    
+	    int s = 100;
+	    int t = 0;
+	    s = t;
+	    System.out.println(s +" and "+t);
+	    
+	    String i = "You";
+	    String j = "Me";
+	    String temp = null;
+	    System.out.println(i +" and "+j + " and "+temp);
 	    
 	    
 	   
