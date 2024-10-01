@@ -1,0 +1,31 @@
+package newpackage;
+
+import java.util.Scanner;
+
+// Program to fetch user input
+
+public class Scn {
+	
+	public static void main (String [] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("What is your name : ");
+		String name = scanner.nextLine();
+		
+		System.out.println("Your name is "+name);
+		
+		System.out.println("How old are you ? ");
+		int age = scanner.nextInt();
+		
+		System.out.println("Your age is "+age);
+		// nextLine is called again to clear out /n 
+		scanner.nextLine();
+		System.out.println ("where are you from ? ");
+		
+		String place = scanner.nextLine();
+		
+		System.out.println("You are from "+place);
+	}
+
+}
