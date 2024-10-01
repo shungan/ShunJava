@@ -1,0 +1,58 @@
+package newpackage;
+
+public class Variables {
+	
+	public static void main(String[] args) {
+		
+		// Program to try different variables
+		
+		int x;
+		x = 100;
+		
+		int y = 200;
+		
+	    System.out.println(x);
+	    System.out.println(y);
+	    
+        int abcd = 500;
+	    
+	    System.out.println(abcd);
+	    
+        long a = 1234566764564343435L;
+	    
+	    System.out.println(a);
+	    
+	    float z = 99.0f;
+	    
+	    System.out.println("My score is "+z);
+	    
+	    double k = 44.13432434;
+	    
+	    System.out.println(k);
+	    
+	    boolean d = true;
+	    
+	    System.out.println(d);
+	    
+	    char name = 'q';
+	    System.out.println(name);
+	    
+	    String var1 = "Hello";
+	    System.out.println("Say "+var1);
+
+	    // Swap variables
+	    
+	    int s = 100;
+	    int t = 0;
+	    s = t;
+	    System.out.println(s +" and "+t);
+	    
+	    String i = "You";
+	    String j = "Me";
+	    String temp = null;
+	    System.out.println(i +" and "+j + " and "+temp);
+	    
+	    
+	   
+	}
+}
