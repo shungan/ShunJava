@@ -1,0 +1,27 @@
+package newpackage;
+
+public class Expressions {
+	public static void main (String [] Args) {
+		
+		int a = 100;
+		a = a+1;
+		System.out.println(a);
+		a++;
+		System.out.println(a);
+		a--;
+		System.out.println(a);
+		int b = 100;
+		int c = b/30;
+		System.out.println(c);
+		double d;
+		d = b/30;
+		System.out.println(d);
+		double e;
+		// Below code is called casting a value which should be followed when
+		// decimal part should be stored.
+		e = (double) b/30;
+		System.out.println(e);
+		float f;
+		f = (int) b/30;
+		System.out.println(f);
+	}
