@@ -1,0 +1,18 @@
+package newpackage;
+import javax.swing.JOptionPane;
+//Program to use JOptionPane and receive user value in text box
+
+public class Joption {
+	public static void main (String[] args) {
+
+		String name = JOptionPane.showInputDialog("What is your name ?");
+		JOptionPane.showMessageDialog(null, "Good job "+name);
+		
+		int age = Integer.parseInt(JOptionPane.showInputDialog("Age please"));
+		JOptionPane.showMessageDialog(null, "Your age is "+age);
+		
+		double weight = Double.parseDouble(JOptionPane.showInputDialog("Weight please"));
+	    JOptionPane.showMessageDialog(null, "Your weight is "+weight);
+	}
+
+}	
