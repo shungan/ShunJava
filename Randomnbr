@@ -1,0 +1,27 @@
+package newpackage;
+import java.util.Random;
+
+public class randomnbr {
+	
+	public static void main(String [] args) {
+		
+		Random random = new Random();
+		
+		int b = random.nextInt();
+		
+		System.out.println(b);
+		
+		//Random number within a number (starts with 0)
+		
+		int c = random.nextInt(10);
+		
+		System.out.println(c);
+		
+		//Random number including the number
+		
+		int d = random.nextInt(10)+1;
+		
+		System.out.println(d);
+	}
+
+}
