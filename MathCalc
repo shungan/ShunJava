@@ -1,0 +1,34 @@
+package newpackage;
+
+import java.util.Scanner;
+import javax.swing.*;	
+public class MathCalc {
+	public static void main (String[] args) {
+		
+	
+		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Enter first number"));
+		
+		int num2 = Integer.parseInt(JOptionPane.showInputDialog("Enter second number"));
+		
+		double num3 = Math.sqrt((num1 * num1) + (num2 * num2));
+
+		JOptionPane.showMessageDialog(null, "Here is the result : "+num3);
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter first number :");
+		int a = scanner.nextInt();
+		
+		System.out.println("Enter second number :");
+		int b = scanner.nextInt();
+		
+		int c = Math.max(a, b);
+		System.out.println("Greatest number is :"+c);
+		
+		scanner.close();
+	
+	}
+
+}
+
