@@ -2,6 +2,8 @@ package newpackage;
 
 import java.util.Scanner;
 import javax.swing.*;	
+import java.util.Random;
+
 public class MathCalc {
 	public static void main (String[] args) {
 		
@@ -27,6 +29,9 @@ public class MathCalc {
 		System.out.println("Greatest number is :"+c);
 		
 		scanner.close();
+		Random random = new Random();
+
+
 	
 	}
 
