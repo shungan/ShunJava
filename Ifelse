@@ -1,0 +1,33 @@
+package newpackage;
+
+import java.util.Scanner;
+import javax.swing.*;
+
+public class Ifelse {
+	
+	public static void main (String [] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter the year :");
+		
+		int a = scanner.nextInt();
+		
+		if (a<2000 & a>1900) {
+			
+			System.out.println("This is 20th century");
+		}
+			else if (a>2000) {
+				
+				System.out.println("This is 21st century");
+			}	
+				else {
+					
+					System.out.println("Too old!");
+				}
+		
+		
+		
+	}
+	
+}
