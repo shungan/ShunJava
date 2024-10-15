@@ -25,6 +25,7 @@ public class randomnbr {
 
 		double k = random.nextDouble(2);
 
+
 	}
 
 }
