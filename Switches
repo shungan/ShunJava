@@ -1,0 +1,26 @@
+package newpackage;
+
+import javax.swing.*;
+
+public class Switches {
+	
+	public static void main ( String [] args) {
+		
+		int a = Integer.parseInt (JOptionPane.showInputDialog("How much time is left ?"	));
+		
+		switch (a) {
+		
+		case 10:JOptionPane.showMessageDialog(null, "Make it fast!"); 
+		break;
+		
+		case 50:JOptionPane.showMessageDialog(null, "We have some time left!");
+		break;
+		
+		default:JOptionPane.showMessageDialog(null, "No rush");
+		}
+        
+		
+		
+	}
+
+}
