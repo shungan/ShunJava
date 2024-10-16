@@ -1,0 +1,32 @@
+package newpackage;
+
+import java.util.Scanner;
+
+public class conditional {
+	
+	public static void main ( String[] args) {
+		
+
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("Type A to enter, Type Q to end,Type B for settings");
+	
+	String val = scanner.nextLine();
+	
+	if ((val.equals("A")) || (val.equals("a"))) {
+	
+		System.out.println("Enter succesful");
+	}
+		else if ((val.equals("Q")) || (val.equals("q")))
+		{
+			System.out.println("Bye bye");
+		}
+		else if ((!val.equals("d")) && (!val.equals("D")))
+		{
+		  System.out.println("Settings selected");
+		}	
+		
+	}
+	}
+
+
